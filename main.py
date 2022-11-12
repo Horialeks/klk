@@ -63,7 +63,7 @@ button1 = Button(frame, text=1, height=4, width=9, font=35, bg="#65788A",
 button1.grid(row=0, column=0)
 
 button2 = Button(frame, text=2, height=4, width=9, font=35, bg="#65788A",
-                 command=lambda: button_press(2))
+                 command=lambda: button_press(2,bg="#65788A"))
 button2.grid(row=0, column=1)
 
 button3 = Button(frame, text=3, height=4, width=9, font=35,bg="#65788A",
